@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.triangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px; 
+    height: 200px; 
+    background-color: transparent;
+} 
+button{
+    height: 20px;
+    width: 60px;
+}
+h1{
+    font-size: 12px;
+}
