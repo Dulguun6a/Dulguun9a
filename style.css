@@ -29,13 +29,14 @@
 }
 .triangle {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 200px; 
-    height: 200px; 
-    background-color: transparent;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid transparent;
 } 
-button{
+button{     
     height: 20px;
     width: 60px;
 }

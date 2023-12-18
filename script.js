@@ -20,12 +20,12 @@ colorButton.addEventListener('click', () =>{
     case 1:
     body.style.backgroundColor = 'yellow'
     circle.style.backgroundColor = 'transparent'
-    triangle.style.backgroundColor ='red'
+    triangle.style.borderBottomColor ='red'
     currentColor = 2
     break
     case 2:
     body.style.backgroundColor = 'blue'
-    triangle.style.backgroundColor = 'transparent'
+    triangle.style.borderBottomColor = 'transparent'
     square.style.backgroundColor ='red'
     currentColor = 0
     break
